@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex로 layout만들기</title>
+    <style>
+      header {
+        background: skyblue;
+        color: white;
+        height: 40px;
+        width: 200px;
+        border: 10px solid darkslateblue;
+      }
+      section {
+        display: flex;
+      }
+      article {
+        background: darkblue;
+        color: white;
+        height: 120px;
+        width: 160px;
+        justify-content: space-between;
+        border: 10px solid darkslateblue;
+      }
+      aside {
+        background: lime;
+        height: 120px;
+        width: 40px;
+        justify-content: space-between;
+        border: 10px solid darkslateblue;
+      }
+      footer {
+        background: red;
+        color: white;
+        height: 40px;
+        width: 200px;
+        border: 10px solid darkslateblue;
+      }
+    </style>
+  </head>
+  <body>
+    <header>header</header>
+    <section>
+      <article>article</article>
+      <aside>aside</aside>
+    </section>
+    <footer>footer</footer>
+  </body>
+</html>
