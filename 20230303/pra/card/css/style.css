@@ -1,0 +1,46 @@
+.container {
+  margin: auto;
+  margin-top: 50px;
+  height: 348px;
+  width: 288px;
+  background: pink;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+img {
+  height: 196px;
+  overflow: hidden;
+}
+.text {
+  margin: 16px;
+}
+
+.title {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #29363d;
+}
+p {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  color: #5a6a72;
+}
+.read {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration-line: underline;
+  color: #29363d;
+}
