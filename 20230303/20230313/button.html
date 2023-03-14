@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>button 만들기</title>
+    <style>
+      .black {
+        width: 88px;
+        height: 32px;
+        background: #343f50;
+        border: 1px solid #1a202c;
+        font-family: "Pretendard";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #cbd5df;
+        box-sizing: border-box;
+      }
+      .black:hover {
+        color: #ffffff;
+      }
+      .black:active {
+        color: #fff;
+        text-decoration-line: underline;
+      }
+      .black:disabled {
+        color: #4a5568;
+      }
+
+      .blue {
+        box-sizing: border-box;
+        width: 88px;
+        height: 32px;
+        background: linear-gradient(180deg, #343f50 0%, #2d3848 100%);
+        border: 1px solid #1a202c;
+        font-family: "Pretendard";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #439aff;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="black">Button</button>
+    <button class="blue">Yes</button>
+    <button class="black">Button</button>
+  </body>
+</html>
