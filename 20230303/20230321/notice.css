@@ -1,0 +1,57 @@
+h1,
+h2,
+strong,
+p {
+  padding: 0;
+  margin: 0;
+}
+section {
+  width: 728px;
+  background: red;
+}
+.title {
+  display: flex;
+  align-items: center;
+}
+span {
+  margin: auto 28px;
+  width: 1px;
+
+  background: #dddddd;
+}
+h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 20px;
+  color: #29363d;
+}
+h2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #5a6a72;
+}
+.detail {
+  display: flex;
+}
+strong {
+  width: 56px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2e6ff2;
+  margin: 16px;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #29363d;
+}
+.detail-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.detail-day {
+}
